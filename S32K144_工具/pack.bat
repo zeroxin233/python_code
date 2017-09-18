@@ -1,0 +1,1 @@
+pyinstaller io_setup_tool.py

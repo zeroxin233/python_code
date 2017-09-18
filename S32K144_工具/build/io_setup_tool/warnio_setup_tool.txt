@@ -1,0 +1,22 @@
+missing module named resource - imported by posix, E:\python\new_code\io_setup_tool.py
+missing module named posix - imported by os, E:\python\new_code\io_setup_tool.py
+missing module named _posixsubprocess - imported by subprocess, E:\python\new_code\io_setup_tool.py
+missing module named 'org.python' - imported by pickle, xml.sax, E:\python\new_code\io_setup_tool.py
+missing module named readline - imported by cmd, code, pdb, E:\python\new_code\io_setup_tool.py
+excluded module named _frozen_importlib - imported by importlib, importlib.abc, E:\python\new_code\io_setup_tool.py
+missing module named _frozen_importlib_external - imported by importlib._bootstrap, importlib, importlib.abc, E:\python\new_code\io_setup_tool.py
+missing module named _scproxy - imported by urllib.request
+missing module named java - imported by platform, E:\python\new_code\io_setup_tool.py
+missing module named 'java.lang' - imported by platform, xml.sax._exceptions, E:\python\new_code\io_setup_tool.py
+missing module named vms_lib - imported by platform, E:\python\new_code\io_setup_tool.py
+missing module named termios - imported by tty, getpass, E:\python\new_code\io_setup_tool.py
+missing module named grp - imported by tarfile, shutil, E:\python\new_code\io_setup_tool.py
+missing module named pwd - imported by posixpath, tarfile, shutil, http.server, webbrowser, netrc, getpass, E:\python\new_code\io_setup_tool.py
+missing module named ce - imported by os, E:\python\new_code\io_setup_tool.py
+missing module named org - imported by copy, E:\python\new_code\io_setup_tool.py
+missing module named _dummy_threading - imported by dummy_threading, E:\python\new_code\io_setup_tool.py
+missing module named elementtree - imported by xlrd.xlsx
+missing module named lxml - imported by xlrd.xlsx
+missing module named cElementTree - imported by xlrd.xlsx
+missing module named cStringIO - imported by xlrd.timemachine
+missing module named copy_reg - imported by cStringIO

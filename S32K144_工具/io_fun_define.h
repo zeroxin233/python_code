@@ -1,0 +1,11 @@
+#define     Sys5vPower              s_gpio_ptd1_define
+  #define   Sys5vPower_On           Low           #define   Sys5vPower_Off          High        #define     MainPower               s_gpio_pte16_define
+  #define   MainPower_On            High          #define   MainPower_Off           Low         #define     SysC12vPower            s_gpio_ptd0_define
+  #define   SysC12vPower_On         High          #define   SysC12vPower_Off        Low         #define     TftPower                s_gpio_pte13_define
+  #define   TftPower_On             High          #define   TftPower_Off            Low         #define     AudioPower              s_gpio_pte4_define
+  #define   AudioPower_On           High          #define   AudioPower_Off          Low         #define     ArmPower                s_gpio_ptb6_define
+  #define   ArmPower_On             High          #define   ArmPower_Off            Low         #define     Mute                    s_gpio_pte12_define
+  #define   Mute_On                 High          #define   Mute_Off                Low         #define     AccOn                   s_gpio_ptd5_define
+#define     BPowerOn                s_gpio_ptd12_define
+#define     BackSightOn             s_gpio_ptc1_define
+#define     IllOn                   s_gpio_ptc14_define

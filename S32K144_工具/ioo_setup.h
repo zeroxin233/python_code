@@ -1,0 +1,89 @@
+#define     Sys5vPower  s_gpio_PTD1_define
+  #define   Sys5vPower_On     Low           #define   Sys5vPower_Off    High        #define     MainPower   s_gpio_PTE16_define
+  #define   MainPower_On      High          #define   MainPower_Off     Low         #define     SysC12vPowers_gpio_PTD0_define
+  #define   SysC12vPower_On   High          #define   SysC12vPower_Off  Low         #define     TftPower    s_gpio_PTE13_define
+  #define   TftPower_On       High          #define   TftPower_Off      Low         #define     AudioPower  s_gpio_PTE4_define
+  #define   AudioPower_On     High          #define   AudioPower_Off    Low         #define     ArmPower    s_gpio_PTB6_define
+  #define   ArmPower_On       High          #define   ArmPower_Off      Low         #define     Mute        s_gpio_PTE12_define
+  #define   Mute_On           High          #define   Mute_Off          Low         #define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+#define     MainPower   s_gpio_PTE16_define
+#define     SysC12vPowers_gpio_PTD0_define
+#define     TftPower    s_gpio_PTE13_define
+#define     AudioPower  s_gpio_PTE4_define
+#define     ArmPower    s_gpio_PTB6_define
+#define     Mute        s_gpio_PTE12_define
+#define     Sys5vPower  s_gpio_PTD1_define
+  #define   Sys5vPower_On     Low           #define   Sys5vPower_Off    High        #define     MainPower   s_gpio_PTE16_define
+  #define   MainPower_On      High          #define   MainPower_Off     Low         #define     SysC12vPowers_gpio_PTD0_define
+  #define   SysC12vPower_On   High          #define   SysC12vPower_Off  Low         #define     TftPower    s_gpio_PTE13_define
+  #define   TftPower_On       High          #define   TftPower_Off      Low         #define     AudioPower  s_gpio_PTE4_define
+  #define   AudioPower_On     High          #define   AudioPower_Off    Low         #define     ArmPower    s_gpio_PTB6_define
+  #define   ArmPower_On       High          #define   ArmPower_Off      Low         #define     Mute        s_gpio_PTE12_define
+  #define   Mute_On           High          #define   Mute_Off          Low         #define     AccOn       s_gpio_PTD5_define
+#define     BPowerOn    s_gpio_PTD12_define
+#define     BackSightOn s_gpio_PTC1_define
+#define     IllOn       s_gpio_PTC14_define
+#define     Sys5vPower  s_gpio_PTD1_define
+  #define   Sys5vPower_On     Low           #define   Sys5vPower_Off    High        #define     MainPower   s_gpio_PTE16_define
+  #define   MainPower_On      High          #define   MainPower_Off     Low         #define     SysC12vPowers_gpio_PTD0_define
+  #define   SysC12vPower_On   High          #define   SysC12vPower_Off  Low         #define     TftPower    s_gpio_PTE13_define
+  #define   TftPower_On       High          #define   TftPower_Off      Low         #define     AudioPower  s_gpio_PTE4_define
+  #define   AudioPower_On     High          #define   AudioPower_Off    Low         #define     ArmPower    s_gpio_PTB6_define
+  #define   ArmPower_On       High          #define   ArmPower_Off      Low         #define     Mute        s_gpio_PTE12_define
+  #define   Mute_On           High          #define   Mute_Off          Low         
