@@ -1,4 +1,5 @@
 import xlrd
+import tool_file
 class node:
     def __init__(self,name,value):
         self.name = name     
@@ -89,12 +90,19 @@ const S_PIN_CFG s_gpio_{name}_define = {{
 """
 
         header_str_format = header_str.format(dict = attr_dict,name = attr_dict['Pin_Name'].lower())	
-        print(header_str_format)
+        return header_str_format
+        #print(header_str_format)
+        
 
 
 iosetup_info = class_excel_info('gpio_setup.xls','s_gpio_pin_define','KEA128_80 LQFP')
+
+
+header_str_file = ""
 for i in iosetup_info.pin_map :
-	write_header_file(i)
+   header_str_file = header_str_file + str(write_header_file(i))
+
+tool_file.write_file(header_str_file)
 
 #iooutfun_info = class_excel_info('gpio_setup.xls','gpio_fun_define','Output_Fun')
 #ioinfun_info = class_excel_info('gpio_setup.xls','gpio_fun_define','Input_Fun')  
