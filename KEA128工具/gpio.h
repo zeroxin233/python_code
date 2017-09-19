@@ -89,7 +89,7 @@ const S_PIN_CFG s_gpio_pth2_define = {
     PIN_SET_LOW,
     GPIO_Pins_2,
 };
-NoneNoneNoneNoneNone
+
 const S_PIN_CFG s_gpio_ptb7_define = {
     {
         GPIO_PTB7,
@@ -544,7 +544,7 @@ const S_PIN_CFG s_gpio_pte4_define = {
     PIN_SET_LOW,
     GPIO_Pins_4,
 };
-NoneNone
+
 const S_PIN_CFG s_gpio_ptg7_define = {
     {
         GPIO_PTG7,
@@ -791,7 +791,7 @@ const S_PIN_CFG s_gpio_pte2_define = {
     PIN_SET_LOW,
     GPIO_Pins_2,
 };
-NoneNone
+
 const S_PIN_CFG s_gpio_ptg3_define = {
     {
         GPIO_PTG3,

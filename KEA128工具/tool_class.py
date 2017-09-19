@@ -1,5 +1,5 @@
 import xlrd
-import tool_file
+
 class node:
     def __init__(self,name,value):
         self.name = name     
@@ -70,41 +70,10 @@ class class_excel_info:
 
 
 
-def write_header_file(attr_dict):
-	##print (attr_dict)
-    if attr_dict['Pin_Attr'] == 'IO':
-        header_str = \
-"""
-const S_PIN_CFG s_gpio_{name}_define = {{
-    {{
-        GPIO_{dict[Pin_Name]},
-        PORT_INTERNAL_{dict[Pull_Config]},
-        {dict[Open_Drain]},
-        PORT_{dict[Drive_Select]}_DRIVE_STRENGTH,
-        GPIO_{dict[Direction]}_DIRECTION,
-    }},
-    PIN_SET_{dict[Normal_Mode]},
-    PIN_SET_{dict[Sleep_Mode]},
-    {dict[Port_Pin_Num]},
-}};
-"""
 
-        header_str_format = header_str.format(dict = attr_dict,name = attr_dict['Pin_Name'].lower())	
-        return header_str_format
-        #print(header_str_format)
         
 
 
-iosetup_info = class_excel_info('gpio_setup.xls','s_gpio_pin_define','KEA128_80 LQFP')
 
-
-header_str_file = ""
-for i in iosetup_info.pin_map :
-   header_str_file = header_str_file + str(write_header_file(i))
-
-tool_file.write_file(header_str_file)
-
-#iooutfun_info = class_excel_info('gpio_setup.xls','gpio_fun_define','Output_Fun')
-#ioinfun_info = class_excel_info('gpio_setup.xls','gpio_fun_define','Input_Fun')  
 
 
